@@ -1,4 +1,4 @@
-package com.msa4java.edu.oop;
+package com.msa4java.edu.oop.basic;
 
 public class Whale {
     // 필드 = 프로퍼티 = 속성 = 변수

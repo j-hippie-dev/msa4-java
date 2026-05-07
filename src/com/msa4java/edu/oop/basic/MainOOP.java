@@ -1,4 +1,4 @@
-package com.msa4java.edu.oop;
+package com.msa4java.edu.oop.basic;
 // 같은 위치에 있기 때문에 import가 생략됨.
 
 public class MainOOP {
@@ -24,5 +24,21 @@ public class MainOOP {
         // 오버로딩 테스트
         Overloading overloading = new Overloading();
         overloading.print(1, 2);
+
+        // 생성자
+        ConJava conJava = new ConJava(20);
+        ConJava conJava1 = new ConJava(30);
+
+        System.out.println(conJava.age);
+        System.out.println(conJava1.age);
+
+        Marine marine = new Marine(40, 6, 0);
+        System.out.println(marine.getHp());
+        marine.setHp(1000);
+        System.out.println(marine.getHp());
+
+        Marine marine2 = new Marine();
+        System.out.println(marine2.getHp());
+
     }
 }
