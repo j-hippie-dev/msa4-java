@@ -1,7 +1,7 @@
 package com.msa4java.edu.oop.basic;
 
 public class Whale {
-    // 필드 = 프로퍼티 = 속성 = 변수
+    // 필드 = 프로퍼티 = 속성 = 클래스 내에 멤버 영역에 선언된 변수
     // 객체 내부에 정의된 속성 = 필드 // 객체 내부에 정의된 함수 = 메소드
     // Class는 Field와 Method로 구성되어 있다.
     public String name = "고래"; // Field = 인스턴스 변수(클래스 내부에 정의된 변수)
